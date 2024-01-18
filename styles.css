@@ -9,8 +9,9 @@ html{
 
 }
 nav{
-    background: linear-gradient(to right top, black, silver, black);
+    background: black;
     height: 100px;
+    box-shadow: 5px 5px 5px gray;
 }
 .nav-links{
     display: flex;
@@ -35,6 +36,11 @@ nav{
 }
 .container h2{
     font-size: 60px;
+    background-color: black;
+    color:white;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 25px;
 }
 .btn{
     font-size: 24px;
