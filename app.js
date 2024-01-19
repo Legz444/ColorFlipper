@@ -1,10 +1,11 @@
 // declare variables//
 
 // array of colors//
-const colors = ["green", "red", "orange", "yellow", "blue", "purple"];
+const colors = ["green", "red", "blue", "yellow", "purple"];
 // grab elements that will need JS functionality//
 const btn= document.getElementById("btn");
 const color= document.querySelector(".color");
+
 
 //create an event listener-when btn is clicked//
 btn.addEventListener('click', function () {
@@ -19,3 +20,4 @@ btn.addEventListener('click', function () {
 function getRandomNumber(){
     return Math.floor(Math.random() * colors.length);
 }
+
